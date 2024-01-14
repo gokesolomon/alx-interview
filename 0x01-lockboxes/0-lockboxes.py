@@ -26,6 +26,6 @@ def canUnlockAll(boxes):
             break
 
     for y in range(length):
-        if y not in opened_boxes and i != 0:
+        if y not in opened_boxes and y != 0:
             return False
     return True
